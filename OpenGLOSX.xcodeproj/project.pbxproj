@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		89EDF2691B49228100DA7B5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EDF2681B49228100DA7B5D /* AppDelegate.m */; };
-		89EDF26B1B49228100DA7B5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EDF26A1B49228100DA7B5D /* main.m */; };
-		89EDF26D1B49228100DA7B5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89EDF26C1B49228100DA7B5D /* Images.xcassets */; };
-		89EDF2701B49228100DA7B5D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89EDF26E1B49228100DA7B5D /* MainMenu.xib */; };
+		8911633C1B49274400FDEBE9 /* libglfw.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8911633B1B49274400FDEBE9 /* libglfw.a */; };
+		8911633F1B4927ED00FDEBE9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8911633D1B4927ED00FDEBE9 /* main.cpp */; };
+		891163461B49298000FDEBE9 /* libglfw.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 891163451B49298000FDEBE9 /* libglfw.a */; };
+		8911634F1B492F2C00FDEBE9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8911634E1B492F2C00FDEBE9 /* Cocoa.framework */; };
 		89EDF27C1B49228100DA7B5D /* OpenGLOSXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EDF27B1B49228100DA7B5D /* OpenGLOSXTests.m */; };
+		89EDF2861B49230600DA7B5D /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89EDF2851B49230600DA7B5D /* OpenGL.framework */; };
+		89EDF2881B49231100DA7B5D /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89EDF2871B49231100DA7B5D /* IOKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,16 +27,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8911633B1B49274400FDEBE9 /* libglfw.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglfw.a; path = OpenGLOSX/lib_osx/libglfw.a; sourceTree = "<group>"; };
+		8911633D1B4927ED00FDEBE9 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = OpenGLOSX/main.cpp; sourceTree = "<group>"; };
+		891163421B49297100FDEBE9 /* glew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glew.h; sourceTree = "<group>"; };
+		891163431B49297100FDEBE9 /* glfw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glfw.h; sourceTree = "<group>"; };
+		891163451B49298000FDEBE9 /* libglfw.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libglfw.a; sourceTree = "<group>"; };
+		8911634E1B492F2C00FDEBE9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		89EDF2621B49228100DA7B5D /* OpenGLOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGLOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89EDF2661B49228100DA7B5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		89EDF2671B49228100DA7B5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		89EDF2681B49228100DA7B5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		89EDF26A1B49228100DA7B5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		89EDF26C1B49228100DA7B5D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		89EDF26F1B49228100DA7B5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		89EDF2751B49228100DA7B5D /* OpenGLOSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenGLOSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89EDF27A1B49228100DA7B5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89EDF27B1B49228100DA7B5D /* OpenGLOSXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLOSXTests.m; sourceTree = "<group>"; };
+		89EDF2851B49230600DA7B5D /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		89EDF2871B49231100DA7B5D /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +47,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8911634F1B492F2C00FDEBE9 /* Cocoa.framework in Frameworks */,
+				8911633C1B49274400FDEBE9 /* libglfw.a in Frameworks */,
+				89EDF2881B49231100DA7B5D /* IOKit.framework in Frameworks */,
+				89EDF2861B49230600DA7B5D /* OpenGL.framework in Frameworks */,
+				891163461B49298000FDEBE9 /* libglfw.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,9 +65,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		891163401B49297100FDEBE9 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				891163411B49297100FDEBE9 /* GL */,
+			);
+			name = include;
+			path = OpenGLOSX/include;
+			sourceTree = "<group>";
+		};
+		891163411B49297100FDEBE9 /* GL */ = {
+			isa = PBXGroup;
+			children = (
+				891163421B49297100FDEBE9 /* glew.h */,
+				891163431B49297100FDEBE9 /* glfw.h */,
+			);
+			path = GL;
+			sourceTree = "<group>";
+		};
+		891163441B49298000FDEBE9 /* lib_osx */ = {
+			isa = PBXGroup;
+			children = (
+				891163451B49298000FDEBE9 /* libglfw.a */,
+			);
+			name = lib_osx;
+			path = OpenGLOSX/lib_osx;
+			sourceTree = "<group>";
+		};
 		89EDF2591B49228100DA7B5D = {
 			isa = PBXGroup;
 			children = (
+				8911634E1B492F2C00FDEBE9 /* Cocoa.framework */,
+				891163441B49298000FDEBE9 /* lib_osx */,
+				891163401B49297100FDEBE9 /* include */,
+				8911633D1B4927ED00FDEBE9 /* main.cpp */,
+				8911633B1B49274400FDEBE9 /* libglfw.a */,
+				89EDF2871B49231100DA7B5D /* IOKit.framework */,
+				89EDF2851B49230600DA7B5D /* OpenGL.framework */,
 				89EDF2641B49228100DA7B5D /* OpenGLOSX */,
 				89EDF2781B49228100DA7B5D /* OpenGLOSXTests */,
 				89EDF2631B49228100DA7B5D /* Products */,
@@ -76,10 +120,6 @@
 		89EDF2641B49228100DA7B5D /* OpenGLOSX */ = {
 			isa = PBXGroup;
 			children = (
-				89EDF2671B49228100DA7B5D /* AppDelegate.h */,
-				89EDF2681B49228100DA7B5D /* AppDelegate.m */,
-				89EDF26C1B49228100DA7B5D /* Images.xcassets */,
-				89EDF26E1B49228100DA7B5D /* MainMenu.xib */,
 				89EDF2651B49228100DA7B5D /* Supporting Files */,
 			);
 			path = OpenGLOSX;
@@ -89,7 +129,6 @@
 			isa = PBXGroup;
 			children = (
 				89EDF2661B49228100DA7B5D /* Info.plist */,
-				89EDF26A1B49228100DA7B5D /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -172,7 +211,6 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
 			);
 			mainGroup = 89EDF2591B49228100DA7B5D;
@@ -191,8 +229,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89EDF26D1B49228100DA7B5D /* Images.xcassets in Resources */,
-				89EDF2701B49228100DA7B5D /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,8 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89EDF26B1B49228100DA7B5D /* main.m in Sources */,
-				89EDF2691B49228100DA7B5D /* AppDelegate.m in Sources */,
+				8911633F1B4927ED00FDEBE9 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,17 +267,6 @@
 			targetProxy = 89EDF2761B49228100DA7B5D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		89EDF26E1B49228100DA7B5D /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				89EDF26F1B49228100DA7B5D /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		89EDF27D1B49228100DA7B5D /* Debug */ = {
@@ -326,8 +350,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					include,
+				);
 				INFOPLIST_FILE = OpenGLOSX/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpenGLOSX/include",
+					"$(PROJECT_DIR)/OpenGLOSX/lib_osx",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -337,8 +370,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					include,
+				);
 				INFOPLIST_FILE = OpenGLOSX/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpenGLOSX/include",
+					"$(PROJECT_DIR)/OpenGLOSX/lib_osx",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -398,6 +440,7 @@
 				89EDF2811B49228100DA7B5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89EDF2821B49228100DA7B5D /* Build configuration list for PBXNativeTarget "OpenGLOSXTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +449,7 @@
 				89EDF2841B49228100DA7B5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
