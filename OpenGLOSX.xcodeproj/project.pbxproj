@@ -11,6 +11,7 @@
 		8911633F1B4927ED00FDEBE9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8911633D1B4927ED00FDEBE9 /* main.cpp */; };
 		891163461B49298000FDEBE9 /* libglfw.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 891163451B49298000FDEBE9 /* libglfw.a */; };
 		8911634F1B492F2C00FDEBE9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8911634E1B492F2C00FDEBE9 /* Cocoa.framework */; };
+		891163511B56B59E00FDEBE9 /* sample.raw in Resources */ = {isa = PBXBuildFile; fileRef = 891163501B56B59E00FDEBE9 /* sample.raw */; };
 		89EDF27C1B49228100DA7B5D /* OpenGLOSXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EDF27B1B49228100DA7B5D /* OpenGLOSXTests.m */; };
 		89EDF2861B49230600DA7B5D /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89EDF2851B49230600DA7B5D /* OpenGL.framework */; };
 		89EDF2881B49231100DA7B5D /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89EDF2871B49231100DA7B5D /* IOKit.framework */; };
@@ -33,6 +34,7 @@
 		891163431B49297100FDEBE9 /* glfw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glfw.h; sourceTree = "<group>"; };
 		891163451B49298000FDEBE9 /* libglfw.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libglfw.a; sourceTree = "<group>"; };
 		8911634E1B492F2C00FDEBE9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		891163501B56B59E00FDEBE9 /* sample.raw */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.raw; sourceTree = "<group>"; };
 		89EDF2621B49228100DA7B5D /* OpenGLOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGLOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89EDF2661B49228100DA7B5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89EDF2751B49228100DA7B5D /* OpenGLOSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenGLOSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +97,7 @@
 		89EDF2591B49228100DA7B5D = {
 			isa = PBXGroup;
 			children = (
+				891163501B56B59E00FDEBE9 /* sample.raw */,
 				8911634E1B492F2C00FDEBE9 /* Cocoa.framework */,
 				891163441B49298000FDEBE9 /* lib_osx */,
 				891163401B49297100FDEBE9 /* include */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				891163511B56B59E00FDEBE9 /* sample.raw in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
